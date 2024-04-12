@@ -270,60 +270,70 @@
             </div>
         </header>
 
-        <main class="row">
-            <div class="row text-center">
-
+        <main>
+            <div class="container text-center">
+              <div class="row align-items-start">
                 <div class="col-4">
-
-                    <div class="card mb-4 rounded-3 shadow-sm">
-
-                        <div class="card-header py-3">
-                            <h4 class="my-0 fw-normal">Товар 1</h4>
+                  <div class="card mb-4 rounded-3 shadow-sm">
+                            <div class="card-header py-3">
+                                <h4 class="my-0 fw-normal">Товар 1</h4>
+                            </div>
+                            <div class="card-body">
+                                <h2 class="card-title pricing-card-title">$100</h2>
+                                <p>
+                                    10 users included,
+                                    2 GB of storage,
+                                    Email support,
+                                    Help center access
+                                </p>
+                                <button type="button" class="w-100 btn btn-lg btn-outline-success">Купить</button>
+                            </div>
                         </div>
-                        <div class="card-body">
-                            <h2 class="card-title pricing-card-title">$100</h2>
-                            <p>
-                                10 users included,
-                                2 GB of storage,
-                                Email support,
-                                Help center access
-                            </p>
-                            <button type="button" class="w-100 btn btn-lg btn-outline-success">Купить</button>
-                        </div>
-                        <form style="margin-bottom: 20px;">
-          <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Имя</label>
-            <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-          </div>
-          <div class="mb-3">
-            <label for="exampleInputEmail2" class="form-label">Email</label>
-            <input type="email" class="form-control" id="exampleInputEmail2">
-          </div>
-          <button type="submit" class="btn btn-success">Отправить</button>
-        </form>
                     </div>
+                    <div class="col-4">
+                      <form>
+                      <div class="mb-3">
+                        <label for="exampleInputName1" class="form-label">Имя</label>
+                        <input type="name" class="form-control" id="exampleInputName1">
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1">
+                      </div>
+                      <button type="submit" class="btn btn-success">Отправить</button>
+                    </form>
+                    </div>
+                  </div>
                 </div>
-            </div>
         </main>
+
         <div>
             <h2 class="fw-normal text-body-emphasis">FAQ</h2>
             <p class="d-inline-flex gap-1">
-              <a class="btn btn-success" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+              <a class="btn btn-success" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1">
                 Как купить?
               </a>
-              <button class="btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+              <button class="btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">
                 Как доставить?
               </button>
-                <button class="btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                Как доставить?
+                <button class="btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3">
+                Какая гарантия?
               </button>
 
             </p>
-            <div class="collapse" id="collapseExample">
+            <div class="collapse" id="collapseExample1">
               <div class="card card-body">
-                Нажимаешь купить короче, потом ниче не получается и все
+                В корзину кидаешь, "купить" нажимаешь и всё броу..."
+              </div>
+                <div class="collapse" id="collapseExample2">
+              <div class="card card-body">
+                Звонишь нам, говоришь "йоу пацаны нужно доставить мне" и мы доставим...
               </div>
             </div>
+                <div class="collapse" id="collapseExample3">
+              <div class="card card-body">
+                Гарантия хорощая
+              </div>
             </div>
         </div>
 </main>
